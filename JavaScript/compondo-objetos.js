@@ -10,6 +10,7 @@ cliente.dependentes = {
     dataNasc: "18/05/2002"
 }
 
-cliente.dependentes.nome = "Paulina Santos";
 
+
+cliente.dependentes.nome = "Paulina Santos";
 console.log(cliente);
