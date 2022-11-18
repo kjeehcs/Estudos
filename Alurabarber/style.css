@@ -1,0 +1,146 @@
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.cabecalho{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.conteudo{
+    color: #000;
+    margin: 0 25px 0 25px;
+}
+
+.conteudo h2{
+    margin: 10px 0 0 0;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.conteudo h3{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.titulocabecalho{
+    position: absolute;
+    top: 10px;
+    right: 350px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+#rodape{
+    text-align: center;
+    background-color: rgb(223, 219, 219);
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+   border: #000 2px solid;
+   border-radius: 10px;
+}
+
+.produtos li:hover{
+    border-color: blue;
+    font-size: 40px;
+}
+
+.produtos li:active{
+    border-color: rgb(0, 255, 0);
+}
+
+.produtos li:hover h2{
+    font-size: 35px;
+}
+
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold ;
+}
+
+.descricao{
+    font-size: 17px;
+}
+
+.preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+footer{
+    text-align: center;
+    background: url("Img/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin:40px 0 ;
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.inputPadrao{
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 10px 25px ;
+    width: 50%;
+}
